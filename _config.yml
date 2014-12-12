@@ -1,21 +1,29 @@
 inc:
-  # Blog Information
-  title:        "Jekyll Incorporated"
-  subtitle:     "Modern Jekyll based blog for companies"
-  cover_image:  blog-cover.jpg
-  logo:         logo.png
+  # Site Information
+  title:        "FORSA"
+  subtitle:     "CONSULTING"
+  cover_image:  map-image.jpg
+  logo:         logo3.png
   
   # Company information
-  company:      Incorporated
-  # url:          http://sendtoinc.com/
-  facebook:     sendtoinc
-  twitter:      sendtoinc
-  gplus:        '101183822199340201470'
-  about_link:   https://sendtoinc.com/about/
+  company:      Forsa Consulting
+#  url:          /forsa-site
+  facebook:     forsa.io
+  twitter:      forsaconsulting
+  #gplus:        '101183822199340201470'
   
-  # Product Information
-  product_link: http://incorporated.sendtoinc.com/
-  tagline:      "Get a modern blog for your company"
+  # about information
+  about_link:   /about
+  # about_cover: /image/forsa_explanation.png
+  
+  # services (SERVICES) Information
+  services_link: /services
+  tagline:      ""
+  # services_cover: /image/IMG_7404.png
+
+  # Contact info
+  contact_link: /contact
+  tagline:      ""
   
   # Comments
   disqus:
@@ -24,24 +32,24 @@ inc:
   
   # Sharing settings
   sharing:
-    twitter:    false
-    facebook:   false
+    twitter:    true
+    facebook:   true
     gplus:      false
     hn:         false
     
   
  # Analytics     
   analytics:
-    google: false # Add tracking code in _includes/_google-analytics.html
+    google: true # Add tracking code in _includes/_google-analytics.html
       
       
   # Google Fonts
-  # eg. 'Droid+Sans:400,700|Droid+Serif:400,700'
-  google_font: 'Droid+Sans:400,700'
+  # eg. 'Raleway:400'
+  google_font: 'Raleway:400'
   
   # Setup your fonts, colors etc at _assets/stylesheets/main.scss
 
-# url:         http://incorporated.sendtoinc.com
+# url:         /forsa-site
 source:      .
 destination: ./_site
 plugins:     ./_plugins
@@ -62,7 +70,7 @@ permalink:     pretty
 paginate_path: 'page:num'
 paginate: 10
 
-markdown:      maruku
+markdown:      kramdown
 markdown_ext:  markdown,mkd,mkdn,md
 textile_ext:   textile
 
@@ -74,12 +82,13 @@ port:        4000
 baseurl:     /
 lsi:         false
 
-maruku:
-  use_tex:    false
-  use_divs:   false
-  png_engine: blahtex
-  png_dir:    images/latex
-  png_url:    /images/latex
+
+# maruku:
+#   use_tex:    false
+#   use_divs:   false
+#   png_engine: blahtex
+#   png_dir:    images/latex
+#   png_url:    /images/latex
 
 rdiscount:
   extensions: []
@@ -102,6 +111,7 @@ kramdown:
     coderay_tab_width: 4
     coderay_bold_every: 10
     coderay_css: style
+
 
 redcloth:
   hard_breaks: true

@@ -1,12 +1,12 @@
 body {
     margin:0;
     border:0;
-    padding:80px 0 0;
+    padding:40px 0 0;
     font-family:$font;
     color:$text;
     -webkit-font-smoothing:antialiased;
     text-rendering:optimizelegibility;
-    font-size:17px;
+    font-size:1em;
 }
 
 .is-visible {
@@ -24,7 +24,7 @@ body {
 }
 
 h1, h2, h3, h4, h5 {
-    color:#263c4c;
+    color:#0078ce;
 }
 
 h1, h2 {
@@ -90,8 +90,8 @@ a {
 
 .blog-cover {
     @extend .article-cover;
-    height: 320px;
-    background-color:#111;
+    height: 420px;
+    background-color:#ffffff;
     background-size:cover;
     background-position:center center;
     z-index:1;
@@ -103,21 +103,21 @@ a {
         right: 0;
         top: 0;
         bottom:0;
-        background-color:rgba(0,0,0,0.4);
-        background-image: linear-gradient(bottom, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0) 100%);
-        background-image: -o-linear-gradient(bottom, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0) 100%);
-        background-image: -moz-linear-gradient(bottom, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0) 100%);
-        background-image: -webkit-linear-gradient(bottom, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0) 100%);
-        background-image: -ms-linear-gradient(bottom, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0) 100%);
+        background-color:rgba(0,0,0,0);
+        background-image: linear-gradient(bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 100%);
+        background-image: -o-linear-gradient(bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 100%);
+        background-image: -moz-linear-gradient(bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 100%);
+        background-image: -webkit-linear-gradient(bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 100%);
+        background-image: -ms-linear-gradient(bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 100%);
 
         background-image: -webkit-gradient(
-        	linear,
-        	left bottom,
-        	left top,
-        	color-stop(0, rgba(0,0,0,0.15)),
-        	color-stop(1, rgba(0,0,0,0))
+            linear,
+            left bottom,
+            left top,
+            color-stop(0, rgba(0,0,0,0)),
+            color-stop(1, rgba(0,0,0,0))
         );
-        padding: 100px 0;
+        padding: 120px 0;
         z-index:10;
 
         a:last-child {
@@ -157,21 +157,36 @@ a {
     }
     
     h1 {
-        font-size:2.7em;
+        font-size:5em;
         line-height:1.4em;
+        font-weight: 700;
     }
     
     h3 {
-        font-size:1.3em;
+        display: inline-block;
+        padding: 0.925rem 1.5rem;
+        font-size:.9em;
+        background:#0078ce;
+        line-height:1.2;
+        font-weight:700;
     }
     
     h1, h3 {
         color:#fff;
         margin:0;
-        font-weight:600;
     }
     
 }
+
+.intro-header {
+    padding-top: 200px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 200px;
+    text-align: center;
+    color: #f8f8f8;
+    background-size: cover;
+}
+
+
 
 .pagination {
     text-align:center;
@@ -254,7 +269,7 @@ a {
     text-rendering: optimizeLegibility;
     border-radius: 2px;
     vertical-align:middle;
-    font-family:"proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family:"Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     border-radius:2px;
     background:#4dab7d;
     border:2px solid #4dab7d;

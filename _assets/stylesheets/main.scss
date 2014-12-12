@@ -1,15 +1,16 @@
 /* CONFIGURATION */
 
 /* Bodytext font */
-$font: "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 /* Font for headings */
-$fontheadings: "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$fontheadings: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 /* Text colors */
-$text: #21272d;
-$textmuted: #848484;
-$accent: #2077b2;
+$text: #666666;
+$textmuted: #999999;
+$accent: #0078ce;
+
 
 
 /* IMPORT CSS FILES */
@@ -20,3 +21,4 @@ $accent: #2077b2;
 @import "icons";
 @import "syntax";
 @import "responsive";
+
