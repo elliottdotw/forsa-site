@@ -6,7 +6,7 @@ body {
     color:$text;
     -webkit-font-smoothing:antialiased;
     text-rendering:optimizelegibility;
-    font-size:1em;
+    font-size:18px;
 }
 
 .is-visible {
@@ -253,7 +253,7 @@ a {
 .btn {
     color:#fff;
     font-weight:bold;
-    background-color:#54b89d;
+    background-color:#999999;
     font-size:1em;
     padding: 0.6em 1.2em;
     display: inline-block;
@@ -271,14 +271,14 @@ a {
     vertical-align:middle;
     font-family:"Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     border-radius:2px;
-    background:#4dab7d;
-    border:2px solid #4dab7d;
+    background:#999999;
+    border:2px solid #999999;
     text-transform: uppercase;
     white-space:nowrap;
 
     &:hover {
-        background:darken(#4dab7d, 10%);
-        border-color:darken(#4dab7d, 10%);
+        background:darken(#999999, 10%);
+        border-color:darken(#999999, 10%);
         color:#fff;
     }
     
