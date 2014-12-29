@@ -16,7 +16,7 @@ For **general inquiries** regarding potential projects engagements, partnership 
 
 For general **press inquiries**, please contact us at **<press@forsa.io>**.
 
-At Forsa we’re a fast growing firm, and are always looking for talented professionals to join our team. We have potential roles for permanent staff as well as short-term technical consultants, especially management consultants, designers, program managers, and technologist. If you’re interested in **joining our team**, we want to hear from you. Send us an email at **<careers@forsa.io>**.
+At Forsa we’re a fast growing firm, and are always looking for talented professionals to join our team. We have potential roles for permanent staff as well as short-term technical consultants, especially management consultants, designers, program managers, and technologists. If you’re interested in **joining our team**, we want to hear from you. Send us an email at **<careers@forsa.io>**.
 
 ---
 
